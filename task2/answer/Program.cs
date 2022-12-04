@@ -4,9 +4,9 @@ internal class NewBaseType
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("int first number:");
+        Console.WriteLine("enter first number:");
         int num1 = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("int second number:");
+        Console.WriteLine("enter second number:");
         int num2 = Convert.ToInt32(Console.ReadLine());
         if (num1 > num2)
             Console.WriteLine("first number more then second number");
