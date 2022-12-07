@@ -19,4 +19,4 @@ int numberN = Convert.ToInt32(Console.ReadLine());
   }
 
 int sumNumber = SumNumber(numberN);
-Console.WriteLine("Summaru of number: " + sumNumber);
+Console.WriteLine("Summary of number: " + sumNumber);
