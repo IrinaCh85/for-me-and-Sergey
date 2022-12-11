@@ -1,7 +1,6 @@
 ﻿// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
 Console.Write("enter number separated with comma: ");
 int[] numbers = StringToNum(Console.ReadLine());
-Console.WriteLine();
 PrintArray(numbers);
 int sum = 0;
 for (int i = 0; i < numbers.Length; i++)
